@@ -1,0 +1,18 @@
+[
+    {
+      "projectID": "001A",
+      "projectDetails": {
+        "name": "Project X",
+        "deadline": "2023-06-30",
+        "budget": 50000
+      }
+    },
+    {
+      "projectID": "002B",
+      "projectDetails": {
+        "name": "Project Y",
+        "deadline": "2023-12-31",
+        "budget": 75000
+      }
+    }
+  ]

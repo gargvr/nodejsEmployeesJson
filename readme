@@ -1,0 +1,16 @@
+Developer should provide 2 JSON Files
+➢ The First JSON File should contain Employee Name along with Employee Details and Project ID
+➢ Second JSON File should contain information about the Projects (containing Project ID and
+Related Details)
+➢ Create 2 APIs, providing the following details:
+➢ First API would take the Employee Id as Input and Queries the underlying JSON File to fetch
+Employee Data at: (localhost:3000/employee/:id)
+➢ Second API would take the Project ID as input and Query the JSON File to fetch Project
+Information at: (localhost:3000/project/:id)
+➢ Using the above specified APIs, create a new API at: (localhost:3000/getemployeedetails )
+This API would get the Employee Data along with the details about the project.
+(Make Use of fetch and promise to resolve API)
+When a query is made to the Employee API, it will fetch Employee Details, along with the
+Project ID. This Project ID can then be used in order to query the Project API to fetch the data.
+The resultant data of the API at:(localhost:3000/getemployeedetails) should contain details about the
+employee as well as details about his Project and should be returned in form of JSON data to the Client.
